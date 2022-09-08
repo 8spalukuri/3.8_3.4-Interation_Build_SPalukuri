@@ -1,25 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Jost&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+
+
 body{
 	margin: 0;	/*background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("");*/
-	background-color: #fff;
+	background-color: #CCD6A4;
 }
 
 
 /*the header container*/
 .header{
 	box-sizing: border-box;
-	border: 2px solid #A6DDFF;
 	height: 42vh; /*view-port height is height of viewing area on screen*/
 	background-image: url();
 	background-size: cover;
 	background-position: top center;
-	background-color: #fff;
-	border: 2px solid black;
+	background-color: #E5E5E5;
 
 	
 }
+
+
+/* LOGO */
+.logo {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	height: 80px;
+	width: 80px;
+}
+
+
 
 /*header for contact form*/
  .header1{
@@ -118,12 +132,7 @@ hr{
 
 
 
-h2{
-	font-size: 1.1vw;
-	font-family: 'Jost', sans-serif;
-	font-style: italic;
-	letter-spacing: 1.5px;
-}
+
 
 
 h3{
@@ -160,10 +169,10 @@ h5{
 
 
 p{
-	font-size: 1vw;
-	font-family: 'Jost', sans-serif;
+	font-size: 0.5vw;
+	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
-	letter-spacing: 1px;
+	letter-spacing: 0.2px;
 }
   
 
@@ -193,7 +202,18 @@ p3{
 
 
 i{
-  color: #0049A2;
+  color: #000;
+}
+
+
+h2{
+	font-size: 3vw;
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: 1.5px;
+	color: #000;
+	font-weight: bold;
+
+	
 }
 
 
@@ -201,12 +221,14 @@ i{
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   h2{
-    font-size: 20px;
-	font-family: 'Jost', sans-serif;;
+    font-size: 40px;
+	font-family: 'Work Sans', sans-serif;
 	letter-spacing: 1px;
-	color: #0049A2;
+	color: #000;
 	margin-top: 100px;
 	line-height: 100%; 
+	font-weight: 900;
+
   }
 }
 
@@ -215,11 +237,13 @@ i{
 @media screen and (max-width: 600px) {
   h2{
     font-size: 15px;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	letter-spacing: 1px;
-	color: #0049A2;
+	color: #000;
 	margin-top: 200px;
 	line-height: 100%;
+	font-weight: bold;
+
   }
 }
 
@@ -233,6 +257,7 @@ i{
 	color: #0049A2;
 	margin-top: 200px;
 	line-height: 100%;
+	  
   }
 }
 
@@ -282,8 +307,7 @@ i{
 	margin-top: 150px;
 	height: 900px;
 	margin-bottom: -500px;
-	border: 2px solid black;
-	background-color: #fff;
+	background-color: #CCD6A4;
 }
 
 /*contains for TOUR*/
@@ -324,7 +348,7 @@ i{
 #container{
 	width: 100%;
 	min-height: 700px;
-	background-color: #fff;
+	background-color: #CCD6A4;
 	/*background-image: url("images/mountain.jpg");*/
 	background-size: cover;
 	position: relative;
@@ -421,41 +445,46 @@ i{
 
 /*CSS for styling my navigation menu*/
 .nav{
-  box-sizing: border-box;
-  background-color: #fff;
-  margin-top: 0px;
-  height: 13vh; /*view-port height is height of viewing area on screen*/
-	border: 2px solid black;
+	box-sizing: border-box;
+	background-color: #CCD6A4;
+	margin-top: 0px;
+	height: 13vh; /*view-port height is height of viewing area on screen*/
+	color: #000;
+	font-family: 'Work Sans', sans-serif;
 }
 
 ul {
-  display: inline;
-  padding: 15px 0px 0px 0px;
-  list-style: none;
-  font-size: 0.9vw; /*vw adjusts text to view-port width of screen*/
-  font-family: 'Jost', sans-serif;
+	display: inline;
+	padding: 15px 0px 0px 0px;
+	list-style: none;
+	font-size: 0.9vw; /*vw adjusts text to view-port width of screen*/
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
 	margin-top: -6px;
 
 }
 ul li {
-  font-family: 'Jost', sans-serif;
-  font-size: 19px;
-  font-weight: bold;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 19px 20px 17px; /* padding for main block menu buttons */
-	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	padding: 45px 20px 17px ; /* padding for main block menu buttons */
+	color: black;
 	line-height: 1.5em; /*Space between each paragraph line*/
-	font-size: 1vw; /*vw adjusts text to view-port width of screen*/
+	font-size: 1.2vw; /*vw adjusts text to view-port width of screen*/
 	letter-spacing: 1px;
 	font-weight: 800;
-	margin-top: 20px;
+
+
 	
 }
 
 ul li:hover {
-  background-color: rgba(255,255,255, 0.5);
+	text-decoration: underine;
+	background: #BCC889;
+	height: 13vh;
+	
   }
  
 /* Hover Colours*/
@@ -482,7 +511,7 @@ a:active {
 
 
 ul li ul {
-  padding: 0;
+  padding: 59px 0px 15px 0px;
   position: absolute;
   top: 65px; /* space between each drop-down menu list */
   left: 0;
@@ -491,7 +520,7 @@ ul li ul {
   visibility: hidden; /* this hides the drop-down menu list */
   z-index: 1; /* for overlapping divs, bringing to the front like a drop down menu */
   font-size: 1vw; /*vw adjusts text to view-port width of screen*/
-	margin-top:-2px;
+	margin-top: -1px;
   
 }
 
@@ -499,8 +528,9 @@ ul li ul li {
   background: #fff; /* this is the drop-down menu background color */
   display: block;
   font-size: 1vw; /*vw adjusts text to view-port width of screen*/
-  background-color: rgba(255,255,255, 0.5);
-	margin-top: 1px;
+  background-color: #BCC889;
+	margin-top: -1px;
+	padding: 20px 15px 15px 20px;
 }
 ul li ul li:hover { background-color: rgba(255,255,255, 0.8);} /* this is the drop-down menu hover on blocks */
 
@@ -509,15 +539,7 @@ ul li:hover ul {
   visibility: visible; /* this makes the drop-down menu visable*/
 }
 
-/* LOGO */
-.logo {
-	float: right;
-	margin-right: 20px;
-	margin-top: 20px;
-	border: 2px solid black;
-	height: 80px;
-	width: 80px;
-}
+
 
 
 button{
@@ -526,7 +548,7 @@ button{
 	background-color: rgba(255,255,255, 0.5);
 	color: #000;
 	font-size: 17px;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	border-style: solid #fff;
 	border-radius: 25px;
 	cursor: pointer;
@@ -616,7 +638,7 @@ input[type=submit]:hover{
 /**************FOOTER*****************/
 
 #footer{
-	font-family: 'Jost', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-align: center;
@@ -736,3 +758,4 @@ body {margin:0}
 	
 
 
+ 

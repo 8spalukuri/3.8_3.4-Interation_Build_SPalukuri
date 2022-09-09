@@ -134,16 +134,18 @@ hr{
 
 
 
+
 /*title of heading on each page*/
 h3{
 	text-align: center;
 	font-size: 3vw; /*vw adjusts text to view-port width of screen*/
 	margin-top: 90px;
 	letter-spacing: 5px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 1.5px;
 	color: #000;
 	font-weight: bold;
+	text-shadow: 3px 3px #7C7C7C;
 	
 }
 
@@ -154,12 +156,14 @@ h4{
 	margin-top: 10px;
 	color: #000;
 	font-size: 1.1vw;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-style: italic;
 	letter-spacing: 1.5px;
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
+
+
 
 /*title of desc on contact*/
 h5{
@@ -179,6 +183,7 @@ p{
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	letter-spacing: 0.2px;
+	line-height: 0.6;
 }
   
 
@@ -214,11 +219,11 @@ i{
 
 h2{
 	font-size: 3vw;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 1.5px;
 	color: #000;
 	font-weight: bold;
-
+	text-shadow: 3px 3px #7C7C7C;
 	
 }
 
@@ -228,13 +233,13 @@ h2{
 @media screen and (min-width: 601px) {
   h2{
     font-size: 40px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 1px;
 	color: #000;
 	margin-top: 100px;
 	line-height: 100%; 
 	font-weight: 900;
-
+	  text-shadow: 3px 3px #7C7C7C;
   }
 }
 
@@ -243,13 +248,13 @@ h2{
 @media screen and (max-width: 600px) {
   h2{
     font-size: 15px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 1px;
 	color: #000;
 	margin-top: 200px;
 	line-height: 100%;
 	font-weight: bold;
-
+	  text-shadow: 3px 3px#7C7C7C;
   }
 }
 
@@ -263,6 +268,7 @@ h2{
 	letter-spacing: 1px;
 	color: #000;
 	line-height: 100%; 
+	
   }
 }
 
@@ -441,6 +447,7 @@ ul {
 	font-family: 'Work Sans', sans-serif;
 	color: #000;
 	margin-top: -6px;
+	font-weight: bolder;
 
 }
 ul li {
@@ -454,7 +461,7 @@ ul li {
 	line-height: 1.5em; /*Space between each paragraph line*/
 	font-size: 1.2vw; /*vw adjusts text to view-port width of screen*/
 	letter-spacing: 1px;
-	font-weight: 800;
+	font-weight: 900;
 
 
 	
@@ -462,7 +469,7 @@ ul li {
 
 ul li:hover {
 	text-decoration: underine;
-	background: #BCC889;
+	background: #A4B84E;
 	height: 13vh;
 	
   }
@@ -508,7 +515,7 @@ ul li ul li {
   background: #fff; /* this is the drop-down menu background color */
   display: block;
   font-size: 1vw; /*vw adjusts text to view-port width of screen*/
-  background-color: #BCC889;
+  background-color: #A4B84E;
 	margin-top: -1px;
 	padding: 20px 15px 15px 20px;
 }
@@ -541,7 +548,6 @@ button{
 
 
 
-	
 
 /******************CONATCT FORM*****************/
 

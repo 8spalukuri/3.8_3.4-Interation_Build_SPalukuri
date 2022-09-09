@@ -15,7 +15,9 @@
 		<div class="nav">
 			<!-- LOGO -->
 		<div class="logo">
-			<img src="images/logo.png" alt="Tawa Bush Reserve Logo">
+			<a href="index.html">
+			<img src="images/logo.png" alt="Tawa Bush Reserve Logo" style=" box-shadow: 2px 2px 4px #3a3b3a;">
+			</a>
 		
 		</div>
 			
@@ -63,7 +65,7 @@
 					<label for="name">Full Name</label>
 				</div>
 				<div class="column2">
-					<input type="text" id"name" name="name" placeholder="Your full name">
+					<input type="text" id"name" name="name" placeholder="Your full name" style=" box-shadow: 2px 2px 4px #5f615f;">
 				</div>
 			</div>	
 				
@@ -75,7 +77,7 @@
 					<label for="email">Email Adress</label>	
 				</div>
 				<div class="column2">
-					<input type="text" id="email" name="email" placeholder="Your email address">
+					<input type="text" id="email" name="email" placeholder="Your email address" style=" box-shadow: 2px 2px 4px #5f615f;">
 				</div>
 			</div>
 					
@@ -87,7 +89,7 @@
 					<label for="phone">Contact Number</label>
 				</div>
 				<div class="column2">
-					<input type="text" id="phone" name="phone" placeholder="A contact number">
+					<input type="text" id="phone" name="phone" placeholder="A contact number" style=" box-shadow: 2px 2px 4px #5f615f;">
 				</div>
 			</div>
 					
@@ -98,7 +100,7 @@
 					<label for="message">Subject</label>
 				</div>
 				<div class="column2">
-					<textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+					<textarea id="message" name="message" placeholder="Write something..." style="height:200px; box-shadow: 2px 2px 4px #5f615f;"></textarea>
 				</div>
 			</div>
 			
@@ -106,7 +108,7 @@
 			<br>
 			<!--submit button-->
 			<div class="row">
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" style=" box-shadow: 2px 2px 4px #3a3b3a;">
 			</div>
 					
 					

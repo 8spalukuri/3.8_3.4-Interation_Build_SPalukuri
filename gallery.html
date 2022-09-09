@@ -41,11 +41,10 @@
           <ul>
               <li><a href="index.html"  style="color:#000;">HOME</a></li>
               
-              <li><a href="tour.html" style="color:#000;">TOUR</a>
+              <li><a href="about.html" style="color:#000;">ABOUT</a>
             <ul>
-              <li><a href="tour.html" style="color:#000;" >ABOUT THE TOUR</a></li>
-              <li><a href="faq.html" style="color:#000;" >FAQ</a></li>
               <li><a href="gallery.html" style="color:#000;" >GALLERY</a></li>
+              <li><a href="form.php"  style="color:#000;">CONTACT</a></li>
             </ul>
               </li>
               <li><a href="form.php" style="color:#000;">CONTACT</a></li>
@@ -57,27 +56,135 @@
        
 
       
-        <div class="header">HEADER IMAGE
-         
+        <div class="header">
+         <img src="images/tawaheader.png" alt="Tawa Bush Reserve header" style="width:100%;">
         </div>
+		<br>
         
         <div id="container"> 
         
         
         
           <div class="content">
-            <h2>Gallery</h2>
-            <br><br>
-            
-				<br><br><br><br><br>
-			  
-			
-				 
-			</div>
-			  
-			  
+            <h5>Gallery</h5>
+            <div id="container">
+        
+        
+        
+          <div class="content">
+           
 
-			  
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 11</div>
+				  <img src="images/img.PNG" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 11</div>
+				  <img src="images/img1.PNG" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 11</div>
+				  <img src="images/img2.PNG" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">4 / 11</div>
+				  <img src="images/img.PNG" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">5 / 11</div>
+				  <img src="images/img3.PNG" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">6/ 11</div>
+				  <img src="images/img4.PNG" style="width:100%">
+				</div>
+					
+				<div class="mySlides fade">
+				  <div class="numbertext">7/ 11</div>
+				  <img src="images/img5.PNG" style="width:100%">
+				</div>
+					
+				<div class="mySlides fade">
+				  <div class="numbertext">8/ 11</div>
+				  <img src="images/img6.PNG" style="width:100%">
+				</div>
+					
+				<div class="mySlides fade">
+				  <div class="numbertext">9/ 11</div>
+				  <img src="images/img7.PNG" style="width:100%">
+				</div>
+					
+				<div class="mySlides fade">
+				  <div class="numbertext">10/ 11</div>
+				  <img src="images/img8.PNG" style="width:100%">
+				</div>
+					
+				<div class="mySlides fade">
+				  <div class="numbertext">11/ 11</div>
+				  <img src="images/img9.PNG" style="width:100%">
+				</div>
+				
+				
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span>  
+				  <span class="dot" onclick="currentSlide(6)"></span> 
+				  <span class="dot" onclick="currentSlide(7)"></span> 
+				  <span class="dot" onclick="currentSlide(8)"></span> 
+				  <span class="dot" onclick="currentSlide(9)"></span> 
+				  <span class="dot" onclick="currentSlide(10)"></span> 
+				  <span class="dot" onclick="currentSlide(11)"></span> 
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					  slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					  dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+
+	  	<br><br><br><br><br><br><br>
+		 
+
 			<!--copyrigth statement--->
 			<div id="footer">
 				&copy; Tawa Bush Reserve 2022, all rights reserved.

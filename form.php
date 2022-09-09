@@ -1,34 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Tawa Bush Reserve</title>
+<!--the host address for my website form goes here-->
 
-    <meta charset="utf-8">
-    
-    <!--compatible with Microsoft Edge-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!--important code needed for site to be responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--important keywords for search engines-->
-    <meta name="Keywords" content="tawa, bush, reserve"/>
-    <meta name="Author" content="Sarina Palukuri"/>
-    <meta name="Description" content="tawa bush reserve Website"/>
-
-
-    <!--import the webpage's stylesheet-->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--import the webpage's javascript file-->
-    <script src="js/script.js" defer></script>
-    
-	  
-    </head>
-    <body>
+<html>
+	
+	<head>
+		<title>Tawa Bush Reserve</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
 		
-
-
+	<div id="main">
 		
 		
 		<div class="nav">
@@ -41,32 +22,30 @@
           <ul>
               <li><a href="index.html"  style="color:#000;">HOME</a></li>
               
-              <li><a href="tour.html" style="color:#000;">TOUR</a>
+              <li><a href="about.html" style="color:#000;">ABOUT</a>
             <ul>
-              <li><a href="tour.html" style="color:#000;" >ABOUT THE TOUR</a></li>
-              <li><a href="faq.html" style="color:#000;" >FAQ</a></li>
               <li><a href="gallery.html" style="color:#000;" >GALLERY</a></li>
+              <li><a href="form.php"  style="color:#000;">CONTACT</a></li>
             </ul>
               </li>
               <li><a href="form.php" style="color:#000;">CONTACT</a></li>
           </ul>
           <!---<img src="images/gannet logo.png" alt="gannet beach logo" style="margin-left: 1300px;" class="responsive">-->
         </div>
-          
 		
-       
-
-      
-        <div class="header">HEADER IMAGE
-         
+		
+		<?php
+		//get the connection to the database
+		require_once("tawa_bush_reserve_mysqli.php");
+		?>
+		
+		
+		<div class="header">
+         <img src="images/tawaheader.png" alt="Tawa Bush Reserve header" style="width:100%;">
         </div>
-        
-        <div id="container"> 
-        
-        
-        
-          <div class="content">
-            
+		<br><br><br><br>
+
+			
 			<h3>Contact</h3>
 			<h4>Please feel free to use the form below to contact us if you have any questions!</h4>
 		
@@ -84,7 +63,7 @@
 					<label for="name">Full Name</label>
 				</div>
 				<div class="column2">
-					<input type="text" id"name" name="name" placeholder="Your full name" style=" box-shadow: 2px 2px 4px #5f615f;">
+					<input type="text" id"name" name="name" placeholder="Your full name">
 				</div>
 			</div>	
 				
@@ -96,7 +75,7 @@
 					<label for="email">Email Adress</label>	
 				</div>
 				<div class="column2">
-					<input type="text" id="email" name="email" placeholder="Your email address" style=" box-shadow: 2px 2px 4px #5f615f;">
+					<input type="text" id="email" name="email" placeholder="Your email address">
 				</div>
 			</div>
 					
@@ -108,7 +87,7 @@
 					<label for="phone">Contact Number</label>
 				</div>
 				<div class="column2">
-					<input type="text" id="phone" name="phone" placeholder="A contact number" style=" box-shadow: 2px 2px 4px #5f615f;">
+					<input type="text" id="phone" name="phone" placeholder="A contact number">
 				</div>
 			</div>
 					
@@ -119,7 +98,7 @@
 					<label for="message">Subject</label>
 				</div>
 				<div class="column2">
-					<textarea id="message" name="message" placeholder="Write something..." style="height:200px; box-shadow: 2px 2px 4px #5f615f;"></textarea>
+					<textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
 				</div>
 			</div>
 			
@@ -127,7 +106,7 @@
 			<br>
 			<!--submit button-->
 			<div class="row">
-				<input type="submit" value="Submit" style=" box-shadow: 2px 2px 4px #3a3b3a;">
+				<input type="submit" value="Submit">
 			</div>
 					
 					
@@ -145,3 +124,6 @@
 	</body>
 	
 </html>
+	
+
+

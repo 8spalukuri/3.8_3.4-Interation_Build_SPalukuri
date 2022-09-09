@@ -91,19 +91,21 @@ hr{
 	font-family: 'Carter One', cursive;
 	letter-spacing: 5px;
 	color: #000;
-	margin-top: 100px;
+	margin-top: -100px;
 	line-height: 100%;
   }
 }
 
 
-.img1 {
+.img1{
 	max-width: 100%;
-	height: auto;
+	height: 150px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border: 2px solid #0049A2;
+	margin-left: 550px;
+	margin-right: -10px;
+	width: 450px;
+	margin-top: -330px;
+	
 }
 
 
@@ -129,8 +131,6 @@ hr{
   border-top: 1px solid black;
   margin-top: 30px;
 }
-
-
 
 
 
@@ -164,34 +164,37 @@ h4{
 }
 
 
-
-/*title of desc on contact*/
 h5{
 	text-align: center;
-	margin-top: 10px;
-	color: #0049A2;
-	font-size: 1.1vw;
-	font-family: 'Jost', sans-serif;
-	font-style: italic;
+	font-size: 3vw; /*vw adjusts text to view-port width of screen*/
+	margin-top: 90px;
+	letter-spacing: 5px;
+	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: 1.5px;
+	color: #000;
+	font-weight: bold;
+	text-shadow: 3px 3px #7C7C7C;
+	
 }
+
 
 
 
 p{
-	font-size: 0.5vw;
+	font-size: 1vw;
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	letter-spacing: 0.2px;
-	line-height: 0.6;
 }
   
 
 p1{
-	font-size: 1.1vw;
-	font-family: 'Jost', sans-serif;
-	font-weight: 1000;
-	letter-spacing: 1px;
+	font-size: 1vw;
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	letter-spacing: 0.2px;
+	line-height: 1.6;
+	
 }
   
 
@@ -259,6 +262,32 @@ h2{
 }
 
 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  h3{
+    font-size: 50px;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 1px;
+	color: #0049A2;
+	margin-top: 200px;
+	line-height: 100%;
+	  
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  h3{
+    font-size: 15px;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 1px;
+	color: #0049A2;
+	margin-top: 200px;
+	line-height: 100%;
+  }
+}
+
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
@@ -268,7 +297,6 @@ h2{
 	letter-spacing: 1px;
 	color: #000;
 	line-height: 100%; 
-	
   }
 }
 
@@ -290,7 +318,7 @@ h2{
 	width: 85%;
 	margin: 0 auto;
 	max-width: 1100px; /*can be used to set a fixed max width*/
-	margin-top: 150px;
+	margin-top: 250px;
 	height: 900px;
 	margin-bottom: -500px;
 	background-color: #CCD6A4;
@@ -404,25 +432,21 @@ h2{
 .icon1{
 	height: 175px;
 	width: 175px;
-	border: 2px solid black;
 	margin-left: 175px;
-	background-color: #b1b3b2;
 }
 
 .icon2{
 	height: 175px;
 	width: 175px;
-	border: 2px solid black;
-	margin-left: 275px;
-	background-color: #b1b3b2;
+	margin-left: 300px;
+	margin-top: -159px;
 }
 
 .icon3{
 	height: 175px;
 	width: 175px;
-	border: 2px solid black;
 	margin-left: 300px;
-	background-color: #b1b3b2;
+	margin-top: -158px;
 }
 
 
@@ -548,6 +572,7 @@ button{
 
 
 
+	
 
 /******************CONATCT FORM*****************/
 
@@ -589,8 +614,7 @@ input[type=submit]:hover{
 	background-color:#CCD6A4;
 	padding: 20px;
 	font-family: 'Work Sans', sans-serif;
-	margin-left:-300px;
-	width: 160%;
+	margin-left:100px;
 	
 	
 	
@@ -619,7 +643,6 @@ input[type=submit]:hover{
 	display: table;
 	clear: both;
 }
-	
 	
 	
 	

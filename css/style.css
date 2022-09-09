@@ -11,14 +11,7 @@ body{
 .header{
 	box-sizing: border-box;
 	border: 2px solid #A6DDFF;
-index_V2
 	height: 40vh; /*view-port height is height of viewing area on screen*/
-
-	height: 42vh; /*view-port height is height of viewing area on screen*/
-	background-image: url();
-	background-size: cover;
-  
-  main
 	background-position: top center;
 	background-color: #fff;
 	width: 63%;
@@ -434,7 +427,7 @@ i{
   box-sizing: border-box;
   background-color: #fff;
   margin-top: 0px;
-  height: 13vh; /*view-port height is height of viewing area on screen*/
+  height: 12vh; /*view-port height is height of viewing area on screen*/
 	border: 2px solid black;
 }
 
@@ -460,7 +453,7 @@ ul li {
 	font-size: 1vw; /*vw adjusts text to view-port width of screen*/
 	letter-spacing: 1px;
 	font-weight: 800;
-	margin-top: 20px;
+	margin-top: 17px;
 	
 }
 
@@ -523,7 +516,7 @@ ul li:hover ul {
 .logo {
 	float: right;
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-top:10px;
 	border: 2px solid black;
 	height: 80px;
 	width: 80px;
